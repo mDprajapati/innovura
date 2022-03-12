@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-Card-Link {
+  text-decoration: underline;
+  color:  #522b86 ;
+}
+.App-Card {
+  border-color:  #d4d9de ;
+  width: 85%;
+  margin-left: 13%;
+}
+.App-Menu-List {
+  margin-top: 11%;
+}
+.App-Menu-Search {
+  margin-top: 5%;
+}
+.App-Menu-Text {
+  margin-top: 4%;
+}
+.App-Card-Text {
+  margin-left: 4%;
+}
+.App-Card-Row {
+  margin-left: 3%;
+}
+.App-Img-India{
+  height: 15px;
+  width: 21px;
+  margin: .5rem;
+}
+.App-Search-List {
+  margin-top: 3%;
+}
+.App-Card-Reliance{
+  width: auto;
+  margin-bottom: .5rem;
+  border-color: #d4d9de;
+}
+.App-Card-Tata{
+  width: auto;
+  border-color: #d4d9de;
+}
+.App-Card-Title{
+  color: #78d03d;
+  margin-left: 4%;
+  margin-right: .6rem;
+}
+.App-Icon-Check{
+  color: #0599dc;
+}
+.App-Icon-Plus{
+  color: #0599dc;
+  float: right;
+}
+.App-Card-Location{
+  margin-left: 4%;
+  margin-top:2%;
+  margin-right: .5rem;
+  color: #4eb4e5;
+}
+.App-Card-Icons {
+  margin-left: 3%;
+  color: #4eb4e5;
+}
+.App-Icon-Compare {
+  color: #4eb4e5;
+}
+.App-Card-Rate{
+  text-align: center;
+  width: 90%;
+  border-color: #d4d9de;
+}
+.App-Rate-Icon{
+  color: #73cf36;
+  margin-top: 7%;
+}
+.App-Reviews{
+  color: #1583ae;
+}
+.App-Rate-Col {
+  margin-top: 7%;
+}
+.App-Rate-Button{
+  border-radius: 30px;
+  background-color: #e6e6e6;
+  width: 180px;
+}
+.App-Rate-Edit{
+  margin-left: 3%;
+  color: #7e7e7e;
+}
+.App-Rate-Row{
+  margin-top: 15%;
+}
+.App-Rate-MessageIcon{
+  color: #0599dc;
+  font-size: 35px;
+}
+.App-Rate-MainIcon{
+  color: #7e7e7e;
+  font-size: 35px;
+}
